@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*,body{
+    box-sizing: border-box;
+    margin:0.5rem;
+    padding:0 rem;
+    
+    background-image:url('img\diya2.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sourav{
+    border-color:rgb(0, 110, 255) ;
+    border:8px;
+    box-shadow: 15px 40px 80px 10px rgb(255, 0, 221);
+    border-radius: 1rem;
+    padding:1rem;
+    margin: 1rem;
+    background-color:rgb(255, 192, 234);
+}
+.header{
+    display: flex;
+}
+.wish{
+/*  
+    font-family: 'Courier New', Courier, monospace;*/
+    font-family: 'Noto Sans', sans-serif;
+    font-size:90px;
+    color:rgb(204, 107, 123);
+    text-shadow: 2px 2px;
+    
+    
+}
+.smile{
+    border-radius: 6rem;
+    box-shadow: 2rem;
+    margin-top: 2rem;
+    border-radius: 4rem;
+    width:6%;
+    height:10%;
+    box-shadow: 10px 10px 10px 5px rgba(136, 53, 53, 0.53);;
+}
+.sub{
+    display: flex;
+}
+.img_sub{
+    border-radius: 2rem;
+    width: 50%;
+    height: 70%;
+    box-shadow: 2px 4px 6px 1px;
+    
+    
+}
+.sub_imojy{
+    margin-top: 10rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius:1rem;
+
+}
+.sub_cake{
+    
+    margin-left: 3rem;
+    border-radius: 4rem;
+    width:60%;
+    height:40%;
+    transition-duration:2px;
+    box-shadow: 15px 5px 30px 5px rgb(139, 85, 94);
+
+}
+.sub_wish{
+    font-size: 200%;
+    
+}
+.sub_love{
+    width:5%;
+    height:5% ;
+    margin-top: 32rem;
+    border-radius: 1rem;
+
+}
